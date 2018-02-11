@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.jumbotron{
+    background-image: url("../img/city-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    margin-top: -56px;
+    margin-bottom: 0;
+}
+
+.area-1{
+    height: 50vh;
+    background: grey;
+}
+
+.profile{
+    height: 400px;
+    margin-top: -200px;'
+    margin: 20px;
+    background: grey;
+    padding: 20px;
+    /* box-shadow: 0px 3px 17px 2px rgba(0,0,0,0.75); */
+    box-shadow: inset 0px 3px 17px 2px rgba(0,0,0,0.75);
+}
+.test{
+    width: 140px;
+    margin: 15px;
+    height: 40px;
+}
