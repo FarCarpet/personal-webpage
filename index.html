@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
     <title>Sam Dawson</title>
+    <link rel="icon" href="./img/favicon.png">
+    <script>
+    function open(){
+            window.open("http://www.google.ca");
+    }
+    </script>
+
     </head>
 
     <body>
 <!-- Navbar  -->
     <nav class="navbar navbar-expand-xl sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">MyLOGO</a>
+            <a class="navbar-brand" href="#"> <img src="./img/logo.svg" alt=""> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,7 +31,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="./img/SamuelDawson.pdf">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Education</a>
@@ -40,6 +47,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -58,7 +68,7 @@
             <!-- <hr class="my-4"> --><br>
             <p>You can download my resume here, or look around to learn more about me.</p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">My Resume</a>
+                <a class="btn btn-info btn-lg" href="#" role="button">My Resume</a>
             </p>
         </div>
     </div>
@@ -67,49 +77,124 @@
 
 <!-- Profile Picture  -->
 <div class="container">
-
-
-        <div class="profile-picture d-flex ">
-                <button type="button" class="btn btn-info my-btn my-auto">Education</button>
-                <button type="button" class="btn btn-info my-btn my-auto">Experience</button>
-            <img src="./img/test-profile.jpg" alt="" class="rounded-circle profile">
-                <button type="button" class="btn btn-info my-btn my-auto">Skills</button>
-                <button type="button" class="btn btn-info my-btn my-auto">Portfolio</button>
+        <div class="profile-picture d-flex justify-content-center">
+                <button type="button" class="btn btn-info my-btn my-btn-a my-auto">Education</button>
+                <button type="button" class="btn btn-info my-btn my-btn-a my-auto">Experience</button>
+                <img src="./img/profile-picture-2.jpg" alt="" class="rounded-circle profile">
+                <button type="button" class="btn btn-info my-btn my-btn-b my-auto">Skills</button>
+                <button type="button" class="btn btn-info my-btn my-btn-b my-auto">Portfolio</button>
         </div>
 </div>
-<!-- Information Carousel  -->
+<!-- Elevator Pitch  -->
 
 
+    <div class="container first-section">
+        <h1 class="highlights">Elevator Pitch </h1>
+        <hr class="overview">
+        <br>
+            <div class=" youtube">
+            <p align="center"><iframe width="900px" height="506px" src="https://www.youtube.com/embed/RmhO8budk3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+            </div>
 
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="carousel-img"></div>
+    </div>
+<!-- Skills -->
+    <div class="container">
+        <h1 class="highlights">Skills</h1>
+        <hr class="overview">
+        <br>
+        <div class="skill">
+            <div class="row">
+                <div class="block-a py-auto">
+                    <h3>JavaScript</h3>
+                    <p>Competent</p>
                 </div>
-                <div class="carousel-item">
-                    <div class="carousel-img"></div>
+                <div class="block-b">
+                    <h3>CSS</h3>
+                    <p>Proficient</p>
                 </div>
-                <div class="carousel-item">
-                    <div class="carousel-img"></div>
+                <div class="block-a">
+                    <h3>HTML</h3>
+                    <p>Accomplished</p>
+                </div>
+                <div class="block-b">
+                    <h3>PHP</h3>
+                    <p>Efficient</p>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="row">
+                <div class="block-b">
+                    <h3>Photoshop</h3>
+                    <p>Experienced</p>
+                </div>
+                <div class="block-a">
+                    <h3>Illustrator</h3>
+                    <p>Capable</p>
+                </div>
+                <div class="block-b">
+                    <h3>CMS</h3>
+                    <p>Adept</p>
+                </div>
+                <div class="block-a">
+                    <h3>MySQL</h3>
+                    <p>Qualified</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Experience -->
+    <div class="container">
+        <br>
+        <h1 class="highlights">Experience</h1>
+        <hr class="overview">
+        <br>
+        <div class="d-flex flex-column">
+            <div class="p-2 experience-a">
+                <h3>AltaGas Summer Student</h3>
+                <h5>May 2017 - July 2017</h5>
+                <ul>
+                    <li>Worked with the Commercial & Industrial group</li>
+                    <li>Market research, especially Renewable Energy Credits (RECs)</li>
+                    <li>Helping with filing and document control</li>
+                </ul>
+            </div>
+            <div class="p-2 experience-b">
+                <h3>Banana Republic Sales Associate</h3>
+                <h5>November 2016 - June 2017</h5>
+                <ul>
+                    <li>Worked as Cashier</li>
+                    <li>Helped with opening and closing duties</li>
+                    <li>Unpacked and sorted shipments</li>
+                </ul>
+            </div>
+            <div class="p-2 experience-a">
+                <h3>AltaGas Summer Student</h3>
+                <h5>May 2016 - July 2016</h5>
+                <ul>
+                    <li>Worked in </li>
+                    <li>Helped with opening and closing duties</li>
+                    <li>Unpacked and sorted shipments</li>
+                </ul>
+                <button type="button" class="btn btn-info my-btn-b">More Experience Info</button>
+            </div>
         </div>
 
+    </div>
+<!-- Education -->
+<div class="container">
+    <h1 class="highlights">Education</h1>
+    <hr class="overview">
 
+
+</div>
+<!-- Hobbies -->
+<div class="container">
+    <h1 class="highlights">Hobbies</h1>
+    <hr class="overview">
+    <div class="skill">
+
+    </div>
+
+</div>
 
 
             <footer>

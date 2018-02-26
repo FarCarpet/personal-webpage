@@ -1,5 +1,12 @@
 .navbar {
-  background: #e8f6ff; }
+  background: #c9eaffe8; }
+
+.navbar-brand {
+  margin: 0;
+  margin-right: 1em;
+  padding: 0; }
+  .navbar-brand img {
+    height: 56px; }
 
 .area-1 {
   height: 50vh;
@@ -10,28 +17,83 @@
   margin-top: -160px;
   background: #e8f6ff;
   padding: 20px;
-  /* box-shadow: 0px 3px 17px 2px rgba(0,0,0,0.75); */
-  box-shadow: inset 0px 3px 17px 2px rgba(0, 0, 0, 0.75);
   z-index: 1; }
 
 .profile-picture {
-  height: 80px; }
+  height: 100px; }
 
 .my-btn {
   width: 140px;
   margin: 15px;
   height: 40px; }
 
+.my-btn-a {
+  float: left; }
+
+.my-btn-b {
+  float: inline-end; }
+
 .carousel {
   z-index: 0; }
+
+.overview {
+  display: block;
+  float: left;
+  height: 1px;
+  width: 275px;
+  border-top: 5px solid red;
+  margin-top: 5px;
+  margin-bottom: 0px; }
+
+.first-section {
+  padding-top: 130px; }
+
+.youtube {
+  display: block; }
+
+.row {
+  display: flex;
+  justify-content: center; }
+
+.block-a {
+  width: 100px;
+  height: 275px;
+  background: #c8e9ff;
+  text-align: center;
+  padding-top: 9%;
+  flex-grow: 1; }
+
+.block-b {
+  width: 100px;
+  height: 275px;
+  background: #fafdff;
+  text-align: center;
+  padding-top: 9%;
+  flex-grow: 1; }
+
+.skill {
+  padding: 0 15px; }
+
+.experience-a {
+  background: #c8e9ff; }
+
+.experience-b {
+  background: #fafdff; }
 
 .jumbotron {
   background-image: url("../img/city-background.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   height: 50vh;
-  margin-top: -56px;
+  margin-top: -72px;
   margin-bottom: 0; }
+
+.btn-info:hover {
+  background: #e8f6ff;
+  color: #117a8b; }
+
+.btn-lg:hover {
+  background: #e8f6ffad; }
 
 body {
   margin: 0;
@@ -46,20 +108,68 @@ body {
   margin-top: -160px;
   background: #e8f6ff;
   padding: 20px;
-  /* box-shadow: 0px 3px 17px 2px rgba(0,0,0,0.75); */
-  box-shadow: inset 0px 3px 17px 2px rgba(0, 0, 0, 0.75);
   z-index: 1; }
 
 .profile-picture {
-  height: 80px; }
+  height: 100px; }
 
 .my-btn {
   width: 140px;
   margin: 15px;
   height: 40px; }
 
+.my-btn-a {
+  float: left; }
+
+.my-btn-b {
+  float: inline-end; }
+
 .carousel {
   z-index: 0; }
+
+.overview {
+  display: block;
+  float: left;
+  height: 1px;
+  width: 275px;
+  border-top: 5px solid red;
+  margin-top: 5px;
+  margin-bottom: 0px; }
+
+.first-section {
+  padding-top: 130px; }
+
+.youtube {
+  display: block; }
+
+.row {
+  display: flex;
+  justify-content: center; }
+
+.block-a {
+  width: 100px;
+  height: 275px;
+  background: #c8e9ff;
+  text-align: center;
+  padding-top: 9%;
+  flex-grow: 1; }
+
+.block-b {
+  width: 100px;
+  height: 275px;
+  background: #fafdff;
+  text-align: center;
+  padding-top: 9%;
+  flex-grow: 1; }
+
+.skill {
+  padding: 0 15px; }
+
+.experience-a {
+  background: #c8e9ff; }
+
+.experience-b {
+  background: #fafdff; }
 
 footer {
   height: 200px;

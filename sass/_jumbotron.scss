@@ -5,8 +5,16 @@
 .jumbotron{
     background-image: url("../img/city-background.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     height: 50vh;
-    margin-top: -56px;
+    margin-top: -72px;
     margin-bottom: 0;
+}
+
+.btn-info:hover{
+    background: #e8f6ff;
+    color: #117a8b;
+}
+.btn-lg:hover{
+    background: #e8f6ffad;
 }
